@@ -1,0 +1,3 @@
+cd .\wikiextractor-master
+python3 WikiExtractor.py -s -o extracted --json --keep_tables enwiki-latest-pages-articles.xml.bz2
+python3 WikiExtractor.py -s -o extracted --json enwiki-latest-pages-articles.xml.bz2
